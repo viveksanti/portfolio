@@ -44,6 +44,7 @@ pre em { color:var(--blue); font-style:normal; } pre strong { color:#e9e5da; fon
 .project-meta { align-self:start; }.project-meta span { font:500 12px var(--mono); color:var(--coral); }.project-meta p { font:400 10px/1.5 var(--mono); color:var(--muted); margin-top:16px; }
 .project-copy h3 { font-size:clamp(28px,3vw,46px); margin:0 0 18px; }.project-copy>p { color:var(--muted); font-size:14px; line-height:1.75; }
 .tags { display:flex; gap:7px; flex-wrap:wrap; margin-top:24px; }.tags span { border:1px solid var(--line); padding:7px 10px; font:400 9px var(--mono); text-transform:uppercase; }
+.project-link { display:inline-flex; align-items:center; gap:6px; margin-top:18px; font:500 11px var(--mono); color:var(--muted); border-bottom:1px solid var(--line); padding-bottom:3px; text-decoration:none; transition:color .2s,border-color .2s; }.project-link:hover { color:var(--text); border-color:var(--text); }
 .project-visual { aspect-ratio:16/8.5; background:var(--coral); padding:18px; position:relative; overflow:hidden; }
 .project-visual.lime { background:var(--lime); }.project-visual.blue { background:var(--blue); }.project-visual.yellow { background:var(--yellow); }
 .visual-bar { display:flex; gap:5px; }.visual-bar i { width:6px; height:6px; border:1px solid rgba(23,24,22,.65); border-radius:50%; }

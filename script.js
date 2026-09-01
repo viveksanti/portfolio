@@ -11,6 +11,7 @@ document.querySelector('#project-list').innerHTML = data.projects.map((project) 
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <div class="tags">${project.tags.map((tag) => `<span>${tag}</span>`).join('')}</div>
+      ${project.link ? `<a class="project-link" href="${project.link.url}" target="_blank" rel="noreferrer">${project.link.label} ↗</a>` : ''}
     </div>
     <div class="project-visual ${project.accent}" aria-hidden="true">
       <div class="visual-bar"><i></i><i></i><i></i></div>

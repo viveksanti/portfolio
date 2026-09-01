@@ -5,14 +5,24 @@ window.PORTFOLIO = {
   projects: [
     {
       number: "01",
-      title: "AgentWatch",
-      type: "AI operations · Independent",
-      description: "A full-stack operations dashboard for AI agents, bringing execution history, latency, token usage, and cost into one clear view — with a cost-free simulation mode for exploration.",
-      tags: ["Agentic AI", "Observability", "Full-stack"],
-      accent: "coral"
+      title: "MoodLift",
+      type: "AI Assistant · Independent",
+      description: "An AI-powered conversational application built and deployed end to end — covering the full product experience and integration of an LLM-powered assistant that helps users improve their mood and mindset.",
+      tags: ["LLM", "Conversational AI", "Full-stack"],
+      accent: "blue",
+      link: { label: "trymoodlift.vercel.app", url: "https://trymoodlift.vercel.app" }
     },
     {
       number: "02",
+      title: "AgentWatch",
+      type: "AI Operations Platform · Independent",
+      description: "A full-stack platform designed to provide visibility into AI-agent execution — covering latency, failures, usage, cost, and workflow behaviour — with a cost-free simulation mode for exploration.",
+      tags: ["Agentic AI", "Observability", "Full-stack"],
+      accent: "coral",
+      link: { label: "GitHub", url: "https://github.com/viveksanti/AgentWatch-AI" }
+    },
+    {
+      number: "03",
       title: "Zaps Premium",
       type: "Booking infrastructure · Zaps Group",
       description: "High-availability APIs for premium dine-in, airport-transfer, and Umrah booking workflows, designed for scale with Redis caching, query indexing, and RabbitMQ pipelines.",
@@ -20,7 +30,7 @@ window.PORTFOLIO = {
       accent: "lime"
     },
     {
-      number: "03",
+      number: "04",
       title: "eReddyCare",
       type: "Telehealth · Sparity",
       description: "A compliance-critical telehealth platform with secure video consultations and payment flows, delivered across the stack with regulated data handling built into its foundations.",
@@ -28,7 +38,7 @@ window.PORTFOLIO = {
       accent: "blue"
     },
     {
-      number: "04",
+      number: "05",
       title: "Flipping American Network",
       type: "PropTech · Sparity",
       description: "A US real-estate marketplace supporting real-time listings, live chat, payments, and digital agreement workflows for buyers and property professionals.",
@@ -36,7 +46,7 @@ window.PORTFOLIO = {
       accent: "yellow"
     },
     {
-      number: "05",
+      number: "06",
       title: "Inner Joy",
       type: "EdTech SaaS · Sparity",
       description: "A behavioural-learning platform for educators with Stripe subscription management, cloud media storage, and Jest test coverage.",
