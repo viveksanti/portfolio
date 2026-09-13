@@ -62,11 +62,11 @@ window.PORTFOLIO = {
   ],
   skills: {
     "AI & agents": ["OpenAI API", "LLM integration", "Agentic system design", "Prompt engineering", "AI observability", "Evaluation"],
-    "AI tools": ["Codex", "Amazon Q", "GitHub Copilot"],
+    "AI tools": ["Claude Code", "Codex", "Amazon Q", "GitHub Copilot"],
     "Frontend": ["TypeScript", "JavaScript", "React", "Next.js", "Redux", "HTML5", "CSS3"],
     "Backend": ["Node.js", "Express.js", "NestJS", "Bun", "REST", "GraphQL", "Microservices", "RabbitMQ"],
-    "Data": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "DynamoDB"],
+    "Data": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Prisma", "Mongoose", "TypeORM", "Drizzle"],
     "Cloud & DevOps": ["AWS Lambda", "S3", "EC2", "SQS/SNS", "Docker", "Kubernetes", "Jenkins"],
-    "Quality & security": ["Jest", "TDD", "Cypress", "SonarQube", "JWT", "OAuth 2.0", "RBAC", "HIPAA"]
+    "Quality & security": ["Jest", "TDD", "Postman", "Swagger", "SonarQube", "JWT", "OAuth 2.0", "RBAC", "HIPAA"]
   }
 };
